@@ -1,0 +1,7 @@
+<span>Chào mừng các bạn cùng đến với trang web hoạt động trực tuyến thuộc Bộ Giáo Dục Thành phố Vũng Tàu.
+            Việc xây dựng và áp dụng website vào hoạt động giáo dục của Trường nhằm nâng cao chất lượng quản lý cũng như rèn luyện, học tập,
+            trao đổi một cách trung gian nhưng đảm bảo tính hiệu quả và kết nối. Hình thức trực tuyến là phương pháp trao đổi giữa các cán bộ
+            giáo viên và học sinh ngoài giờ lên lớp, dễ dàng kiểm soát timeline bài học đầy đủ khi về nhà và trước khi lên lớp,... Không chỉ vậy,
+            việc hoạt động trực tuyến giúp cho giáo viên cũng như học sinh dễ dàng cập nhật thông tin lớp học, thời khoá biểu, ngoại khóa, sự kiện văn nghệ,..
+            một cách nhanh chóng và đồng bộ,...
+        </span>

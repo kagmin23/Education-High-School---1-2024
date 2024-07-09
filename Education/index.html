@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
-    <h1>hello</h1>
+<body class="d-flex flex-column min-vh-100">
+
+    <header class="bg-primary text-white text-center py-5 position-relative">
+        <h1 class="title-container display-4 text-uppercase font-weight-bold">Chào mừng đến với trang học trực tuyến</h1>
+    </header> 
+    
+    <div class="marquee bg-secondary text-white py-2">
+        <span>Chào mừng các bạn cùng đến với trang web hoạt động trực tuyến thuộc Bộ Giáo Dục Thành phố Vũng Tàu.
+            Việc xây dựng và áp dụng website vào hoạt động giáo dục của Trường nhằm nâng cao chất lượng quản lý cũng như rèn luyện, học tập,
+            trao đổi một cách trung gian nhưng đảm bảo tính hiệu quả và kết nối. Hình thức trực tuyến là phương pháp trao đổi giữa các cán bộ
+            giáo viên và học sinh ngoài giờ lên lớp, dễ dàng kiểm soát timeline bài học đầy đủ khi về nhà và trước khi lên lớp,... Không chỉ vậy,
+            việc hoạt động trực tuyến giúp cho giáo viên cũng như học sinh dễ dàng cập nhật thông tin lớp học, thời khoá biểu, ngoại khóa, sự kiện văn nghệ,..
+            một cách nhanh chóng và đồng bộ,...
+        </span>
+    </div>
+    
+    <div class="container-fluid d-flex justify-content-center align-items-center flex-grow-1 position-relative">
+        <div class="background-overlay"></div>
+        <div id="signup-container" class="signup-box bg-light p-4 rounded shadow-lg">
+            <h2 class="text-center mb-4">Đăng ký</h2>
+            <form>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Mật khẩu</label>
+                    <input type="password" class="form-control" id="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Xác nhận mật khẩu</label>
+                    <input type="password" class="form-control" id="confirm-password" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Đăng ký</button>
+            </form>
+        </div>
+    </div>
+
+    <footer id="footer-container" class="bg-dark text-white text-center py-3">
+        &copy; 2024 Bộ Giáo Dục Thành phố Vũng Tàu. All rights reserved.
+    </footer>
+    
+    <script src="main.js"></script>
 </body>
 </html>
